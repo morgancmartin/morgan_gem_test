@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'morgan_gem_test'
+MorganGemTest.play

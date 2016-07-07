@@ -1,6 +1,6 @@
-module MorganGameTest
+module MorganGemTest
   class PlayerView
-
+    attr_reader :move
     def initialize(name)
       case name
       when String

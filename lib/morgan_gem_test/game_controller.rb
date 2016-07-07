@@ -21,11 +21,11 @@ module MorganGemTest
     def set_players(mode)
       case mode
       when 'one player'
-        @player_one = MorganGameTest::PlayerView.new(gets.chomp)
-        @player_two = MorganGameTest::PlayerView.new(:computer)
+        @player_one = PlayerView.new(gets.chomp)
+        @player_two = PlayerView.new(:computer)
       when 'two player'
-        @player_one = MorganGameTest::PlayerView.new(gets.chomp)
-        @player_two = MorganGameTest::PlayerView.new(gets.chomp)
+        @player_one = PlayerView.new(gets.chomp)
+        @player_two = PlayerView.new(gets.chomp)
       end
     end
 

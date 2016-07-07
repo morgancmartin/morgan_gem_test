@@ -6,7 +6,7 @@ require 'morgan_gem_test/version'
 Gem::Specification.new do |spec|
   spec.name          = "morgan_gem_test"
   spec.version       = MorganGemTest::VERSION
-  spec.authors       = ["Morgan Martin"]
+  spec.authors       = ["Morgan Martin", "Christopher Virtucio"]
   spec.email         = ["morganm5201@gmail.com"]
 
   spec.summary       = %q{random}
